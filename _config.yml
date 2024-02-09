@@ -25,7 +25,7 @@ title : keytech
 tagline: Secure Key Control
 
 
-twitter_username: lantoniotrento
+#twitter_username: keytech
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
