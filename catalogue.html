@@ -6,12 +6,15 @@ tags : [cards, components]
 img : 
 img-mobile : 
 author : Antonio Trento
-css: 
+css: assets/css/gallery.css
 js:
 keywords: components, demo
 canonical: https://heliumjk.github.io
 ---
 {% include JB/setup %}
+
+
+
     <!-- Content Area Start -->
     <div id="content">
       <div class="container">
@@ -25,154 +28,9 @@ canonical: https://heliumjk.github.io
         <div class="sub-title">
           <span>Key Track Edge</span>
         </div>
-        <div class="row">
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-01.jpg" alt="">
-              <div class="card-block">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-02.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-03.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-04.jpg" alt="">
-              <div class="card-block text-right">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
+        {% include image-gallery.html folder="/assets/images/service" %}
         </div>
-        <div class="row">
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-01.jpg" alt="">
-              <div class="card-block">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-02.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-03.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-04.jpg" alt="">
-              <div class="card-block text-right">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-        </div>
-
-        <div class="row">
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-01.jpg" alt="">
-              <div class="card-block">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-02.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-03.jpg" alt="">
-              <div class="card-block text-center">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-
-          <!-- Start card -->
-          <div class="col-sm-6 col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="{{ BASE_PATH }}/assets/images/card/img-04.jpg" alt="">
-              <div class="card-block text-right">
-                <h3 class="card-title">Item Title</h3>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-              </div>
-            </div>
-          </div>
-          <!-- End card -->
-        </div>
+      </div>
 
 
         <!-- <div class="mb-60"></div> -->
